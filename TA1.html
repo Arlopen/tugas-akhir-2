@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Syahrul</title>
+    <link rel="stylesheet" href="TA1.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Portofolio <span>Syahrul</span></h1>
+        <nav class="navigation">
+            <a href="#tentang">Tentang</a>
+            <a href="#skill">Skill</a>
+            <a href="#pengalaman">Pengalaman</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="tentang" class="section">
+        <h2>Tentang Saya</h2>
+        <img src="PP.jpg" alt="Foto Profil" class="profile-img">
+        <p>Halo kenalin Saya <b>Syahrul Ghufron Al Hamdan</b>, seorang mahasiswa Teknik Infromatika di Universitas Lampung yang sedang belajar membuat website menggunakan HTML dan CSS. 
+        Tujuan saya adalah terus berkembang di dunia web development dan belajar hal baru setiap hari.</p>
+    </section>
+
+    <section id="skill" class="section">
+        <h2>Kemampuan</h2>
+        <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Desain</li>
+            <li>Konten</li>
+        </ul>
+    </section>
+
+    <section id="pengalaman" class="section">
+        <h2>Pengalaman & Hobi</h2>
+        <p>Saya pernah membuat beberapa website sederhana sebagai latihan pribadi. 
+        Selain ngoding, saya juga suka mendesain tampilan dan belajar tentang teknologi baru. 
+        Di waktu luang, saya sering mendengarkan musik, memancing, dan eksplor ide kreatif untuk web.</p>
+    </section>
+
+    <section id="kontak" class="section form-section">
+        <h2>Hubungi Saya</h2>
+        <form action="#" method="POST">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan kamu di sini..." required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Portofolio Syahrul</p>
+    </footer>
+</body>
+</html>
